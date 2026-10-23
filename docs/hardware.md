@@ -33,4 +33,4 @@ Analog cards (EL3xxx / EL4xxx): TBD from the scan
 | Damper Open | TBD | Digital | Command or limit switch? |
 | Damper Close | TBD | Digital | Command or limit switch? |
 | Analog Fan Control | Output | TBD | 0-10 V or 4-20 mA? |
-| Analog Prox | Input | TBD | What does it measure? |
+| Analog Prox | Input | TBD | What does it measure? |git 

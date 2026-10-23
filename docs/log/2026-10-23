@@ -1,0 +1,22 @@
+# Friday, Oct 23, 2026 — Repo setup and IT follow-up
+
+**Status:** TwinCAT Standard still not installed. No rack scan or TwinCAT runtime work possible today. Focused on Git setup and coordinating the hardware fix.
+
+## Done
+- Emailed IT and instructors about the missing TwinCAT Standard package and the Realtek network chip issue.
+- Identified which of the lab’s mini PCs have Intel network chips.
+- Stacy confirmed this station PC is the oldest and showed where the newer ones are kept. Plan is to move the EtherCAT master to one of those once TwinCAT is available.
+- Attended part of Walker Reynolds’ Mastermind session, then left early to stay on the station schedule.
+- Created the public GitHub repo `twincat-damper-trainer` with the TwinCAT3 `.gitignore` and an MIT license.
+- Cloned the repo to the station and pushed the folder skeleton (`docs/`, `src/`, `tools/`, plus empty stubs). Three commits on `main`.
+- Confirmed the station can reach GitHub and that the local clone is in sync.
+- Spent time learning the basics of VS Code, GitHub, and Windows PowerShell. These tools are routine for a lot of people, but they’re new to me and pretty cool once they click.
+
+## Blockers
+- TwinCAT Standard (Engineering + Runtime) and TF6100 OPC UA runtime still waiting on IT.
+- EtherCAT adapter remains Realtek; move to an Intel-chip mini PC is the current plan.
+
+## Next
+- Continue non-runtime Beckhoff courses while waiting on IT.
+- Fill in hardware notes and I/O list stubs once the scan is possible.
+- Keep daily logs and push each day’s work.
